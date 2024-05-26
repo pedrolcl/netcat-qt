@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2024 Pedro López-Cabanillas <plcl@users.sf.net>
+
 #include <QStringListModel>
 
 #include "fluidcompleter.h"
