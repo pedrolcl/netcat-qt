@@ -12,7 +12,8 @@ $ fluidsynth -s
 $ netcat-qt -a localhost -p 9800
 ```
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.png)  
+![windows screenshot](screenshot-win.png)  
 
 Another alternative providing a GUI shell interface for the FluidSynth library is [fluidsynt-qt-gui](https://github.com/pedrolcl/fluidsynth-qt-gui).
 
