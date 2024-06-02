@@ -36,3 +36,9 @@ target_link_libraries ( ${PROJECT_NAME} PRIVATE
     Qt::Widgets
     Qt::Network
 )
+
+include(GNUInstallDirs)
+install(TARGETS ${PROJECT_NAME}
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)

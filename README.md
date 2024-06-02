@@ -8,6 +8,14 @@ The defaults are the same as the FluidSynth shell interface, and that is why thi
 $ fluidsynth -s
 ```
 
+```shell
+$ netcat-qt -a localhost -p 9800
+```
+
+![screenshot](screenshot.png)
+
+Another alternative providing a GUI shell interface for the FluidSynth library is [fluidsynt-qt-gui](https://github.com/pedrolcl/fluidsynth-qt-gui).
+
 # ConsoleWidget
 
 This component was developed by George Apostolopoulos in 2020 as part of [**QDaq** - Qt-based Data Acquisition](https://gitlab.com/qdaq/qdaq) and forked by Pedro López-Cabanillas in 2024 from [this GitHub repository](https://github.com/gapost/qconsolewidget).
