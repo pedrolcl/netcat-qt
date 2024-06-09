@@ -12,11 +12,9 @@ find_package (Qt6 REQUIRED COMPONENTS Core Gui Widgets Network)
 
 qt_standard_project_setup()
 
+add_subdirectory( consolewidget )
+
 qt_add_executable( ${PROJECT_NAME}
-    ConsoleIODevice.cpp
-    ConsoleIODevice.h
-    ConsoleWidget.cpp
-    ConsoleWidget.h
     fluidcompleter.h
     fluidcompleter.cpp
     main.cpp
@@ -35,6 +33,7 @@ target_link_libraries ( ${PROJECT_NAME} PRIVATE
     Qt::Gui
     Qt::Widgets
     Qt::Network
+    consolewidget-static
 )
 
 include(GNUInstallDirs)
